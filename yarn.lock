@@ -2391,9 +2391,9 @@ base64-js@^1.0.2, base64-js@^1.3.0, base64-js@^1.3.1:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
 
-baseline-browser-mapping@^2.9.0:
-  version "2.11.21"
-  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.11.21.tgz#99af73cb8e54007e4f5345e132278e26c2662f2c"
+baseline-browser-mapping@^2.11.23:
+  version "2.11.25"
+  resolved "https://registry.yarnpkg.com/baseline-browser-mapping/-/baseline-browser-mapping-2.11.25.tgz#88b942ce372bdf2d6a2652136bbf7826c65c77be"
 
 basic-auth-connect@^1.1.0:
   version "1.1.0"
@@ -2536,30 +2536,21 @@ braces@~3.0.2:
     fill-range "^7.0.1"
 
 browserslist@^3.0.0:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-3.2.4.tgz#fb9ad70fd09875137ae943a31ab815ed76896031"
+  version "3.2.8"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-3.2.8.tgz#b0005361d6471f0f5952797a76fc985f1f978fc6"
   dependencies:
-    caniuse-lite "^1.0.30000821"
-    electron-to-chromium "^1.3.41"
+    caniuse-lite "^1.0.30000844"
+    electron-to-chromium "^1.3.47"
 
-browserslist@^4.0.0, browserslist@^4.16.3, browserslist@^4.21.4, browserslist@^4.24.0, browserslist@^4.24.4:
-  version "4.25.1"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.25.1.tgz#ba9e8e6f298a1d86f829c9b975e07948967bb111"
+browserslist@^4.0.0, browserslist@^4.16.3, browserslist@^4.21.4, browserslist@^4.24.0, browserslist@^4.24.4, browserslist@^4.28.1:
+  version "4.29.0"
+  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.29.0.tgz#e50e72c30c4b5f7ec894c09feb6ed525167f5344"
   dependencies:
-    caniuse-lite "^1.0.30001726"
-    electron-to-chromium "^1.5.173"
-    node-releases "^2.0.19"
-    update-browserslist-db "^1.1.3"
-
-browserslist@^4.28.1:
-  version "4.28.1"
-  resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.28.1.tgz#7f534594628c53c63101079e27e40de490456a95"
-  dependencies:
-    baseline-browser-mapping "^2.9.0"
-    caniuse-lite "^1.0.30001759"
-    electron-to-chromium "^1.5.263"
-    node-releases "^2.0.27"
-    update-browserslist-db "^1.2.0"
+    baseline-browser-mapping "^2.11.23"
+    caniuse-lite "^1.0.30001810"
+    electron-to-chromium "^1.5.427"
+    node-releases "^2.0.55"
+    update-browserslist-db "^1.3.3"
 
 buffer-crc32@^1.0.0:
   version "1.0.0"
@@ -2656,17 +2647,13 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001702, caniuse-lite@^1.0.30001726:
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001702:
   version "1.0.30001731"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001731.tgz#277c07416ea4613ec564e5b0ffb47e7b60f32e2f"
 
-caniuse-lite@^1.0.30000821:
-  version "1.0.30000830"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30000830.tgz#cb96b8a2dd3cbfe04acea2af3c4e894249095328"
-
-caniuse-lite@^1.0.30001759:
-  version "1.0.30001769"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001769.tgz#1ad91594fad7dc233777c2781879ab5409f7d9c2"
+caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001810:
+  version "1.0.30001810"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001810.tgz#4970b477dea3278374de9bc43aa8f5d39fc3cda2"
 
 case-sensitive-paths-webpack-plugin@^2.3.0:
   version "2.4.0"
@@ -3459,17 +3446,9 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
-electron-to-chromium@^1.3.41:
-  version "1.3.42"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.42.tgz#95c33bf01d0cc405556aec899fe61fd4d76ea0f9"
-
-electron-to-chromium@^1.5.173:
-  version "1.5.197"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.197.tgz#117f9d1afd82ae84bbfedd168ddcf52e4afb6216"
-
-electron-to-chromium@^1.5.263:
-  version "1.5.286"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.286.tgz#142be1ab5e1cd5044954db0e5898f60a4960384e"
+electron-to-chromium@^1.3.47, electron-to-chromium@^1.5.427:
+  version "1.5.433"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.5.433.tgz#5c26b05c48030ff4a5566fcaa10dc452a1d1de3e"
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -5974,13 +5953,9 @@ node-gyp@^9.4.0:
     tar "^6.1.2"
     which "^2.0.2"
 
-node-releases@^2.0.19:
-  version "2.0.19"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.19.tgz#9e445a52950951ec4d177d843af370b411caf314"
-
-node-releases@^2.0.27:
-  version "2.0.27"
-  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.27.tgz#eedca519205cf20f650f61d56b070db111231e4e"
+node-releases@^2.0.55:
+  version "2.0.56"
+  resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.56.tgz#fff6a4093fe05d994a2a5e415eee5fcef874e6dc"
 
 nopt@^6.0.0:
   version "6.0.0"
@@ -8017,16 +7992,9 @@ unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
 
-update-browserslist-db@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.1.3.tgz#348377dd245216f9e7060ff50b15a1b740b75420"
-  dependencies:
-    escalade "^3.2.0"
-    picocolors "^1.1.1"
-
-update-browserslist-db@^1.2.0:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz#64d76db58713136acbeb4c49114366cc6cc2e80d"
+update-browserslist-db@^1.3.3:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/update-browserslist-db/-/update-browserslist-db-1.3.3.tgz#197e21fb2561fa89f8b94fad605a2b296a18993a"
   dependencies:
     escalade "^3.2.0"
     picocolors "^1.1.1"
